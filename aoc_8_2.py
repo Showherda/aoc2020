@@ -1,6 +1,5 @@
 import sys
 sys.stdin=open('input.txt')
-sys.stdout=open('output.txt', 'w')
 inp=sys.stdin.readlines()
 n=len(inp)
 for j in range(n):
