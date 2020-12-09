@@ -1,10 +1,5 @@
 import sys
-# LI=lambda:list(map(int, sys.stdin.readline().split()))
-# MI=lambda:map(int, sys.stdin.readline().split())
-# SI=lambda:sys.stdin.readline().strip('\n')
-# II=lambda:int(sys.stdin.readline())
 sys.stdin=open('input.txt')
-# sys.stdout=open('output.txt', 'w')
 inp=sys.stdin.readlines()
 l, r=-1, 23
 for i in range(25, len(inp)):
