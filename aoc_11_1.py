@@ -1,9 +1,3 @@
-# import sys
-# LI=lambda:list(map(int, sys.stdin.readline().split()))
-# MI=lambda:map(int, sys.stdin.readline().split())
-# SI=lambda:sys.stdin.readline().strip('\n')
-# II=lambda:int(sys.stdin.readline())
-
 import sys
 from itertools import product
 sys.stdin=open('input.txt')
