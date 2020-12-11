@@ -1,11 +1,6 @@
 import sys
 from itertools import product
-# LI=lambda:list(map(int, sys.stdin.readline().split()))
-# MI=lambda:map(int, sys.stdin.readline().split())
-# SI=lambda:sys.stdin.readline().strip('\n')
-# II=lambda:int(sys.stdin.readline())
 sys.stdin=open('input.txt')
-# sys.stdout=open('output.txt', 'w')
 inp=[list(v.strip('\n')) for v in sys.stdin.readlines()]
 n=len(inp)
 m=len(inp[0])
@@ -26,9 +21,6 @@ def cnt(i, j):
 	return val
 flag=1
 ok=1
-# for i in range(n):
-# 	print(''.join(inp[i]))
-# print()
 while ok:
 	cng=[]
 	if flag:
@@ -47,9 +39,6 @@ while ok:
 		ok=len(cng)
 		for i, j in cng:
 			inp[i][j]='L'
-	# for i in range(n):
-	# 	print(''.join(inp[i]))
-	# print()
 	flag=not flag
 ans=0
 for i in range(n):
@@ -57,5 +46,3 @@ for i in range(n):
 		if inp[i][j]=='#':
 			ans+=1
 print(ans)
-# for c in product([-1, 0, 1], repeat=2):
-# 	print(c)
