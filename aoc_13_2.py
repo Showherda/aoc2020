@@ -16,12 +16,11 @@ def inverse(pos):
 	global inp, N
 	nk=inp[pos][0]
 	Nk=N//nk
-	x0, y, d=gcd(Nk, nk)
-	x=x0
+	x, y, d=gcd(Nk, nk)
 	t=0
 	while x<0:
 		t+=1
-		x=x0+(nk//d)*t
+		x+=nk*t
 	return x
 ans=0
 for i in range(len(inp)):
