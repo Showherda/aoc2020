@@ -1,4 +1,3 @@
-import sys
 inp=[1, 0, 15, 2, 10, 13]
 mem={}
 val=2020	# put in 30000000 for part 2
