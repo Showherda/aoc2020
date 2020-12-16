@@ -60,3 +60,4 @@ for v in match:
 	if v[:2]=='de':
 		ans*=match[v].pop()
 print(ans)
+# if anyone is reading this, I feel you ;-;
